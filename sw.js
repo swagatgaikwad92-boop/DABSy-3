@@ -1,7 +1,7 @@
-/* global ["./","./assets/app-BYXI56ZC.css","./assets/app-DZEWDPXY.js","./assets/char/body.webp","./assets/char/bow.webp","./assets/char/eye-l.webp","./assets/char/eye-r.webp","./assets/scenes/bedroom-day.webp","./assets/scenes/bedroom-night.webp","./assets/scenes/cabin-day.webp","./assets/scenes/cabin-night.webp","./assets/scenes/garden-day.webp","./assets/scenes/garden-night.webp","./assets/scenes/study-day.webp","./assets/scenes/study-night.webp","./icons/icon-192.png","./icons/icon-512.png","./icons/icon-maskable-512.png","./index.html","./manifest.webmanifest"], false */
+/* global __PRECACHE__, __DEV__ */
 // Service worker: offline app shell. Generated values are injected by scripts/build.mjs.
 // Never caches cross-origin requests (AI backend, weather) — those must always be live.
-const VERSION = '3092556433';
+const VERSION = '__VERSION__';
 const PRECACHE = __PRECACHE__;
 const DEV = __DEV__;
 const CACHE = 'dabsy-' + VERSION;

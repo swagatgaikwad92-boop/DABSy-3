@@ -1,0 +1,11 @@
+name = "dabsy-api"
+main = "index.js"
+compatibility_date = "2025-01-01"
+
+[vars]
+# Comma-separated list of exact origins allowed to call this API, e.g. your GitHub Pages site.
+ALLOWED_ORIGINS = "https://YOUR-USER.github.io"
+MODEL = "claude-sonnet-5-5"
+MAX_TOKENS = "2048"
+
+# Secret (never commit): npx wrangler secret put ANTHROPIC_API_KEY
